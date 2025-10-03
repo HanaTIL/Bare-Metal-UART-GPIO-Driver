@@ -97,6 +97,7 @@ On success → PD12 set (success LED)
 On timeout → PD14 set (error LED)
 
 2. API Summary
+   
 **GPIO**
 void GPIO_ClockEnable(GPIO_TypeDef *gpio_x);
 void GPIO_Init(GPIO_TypeDef *gpio_x, char Mode, char typeInput, char typeOutput, short int pin);
