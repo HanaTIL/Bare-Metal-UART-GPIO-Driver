@@ -1,0 +1,8 @@
+../Core/Src/uart_gpio.c:24:6:UART_ClockEnable	5
+../Core/Src/uart_gpio.c:58:6:GPIO_ClockEnable	8
+../Core/Src/uart_gpio.c:111:6:GPIO_Init	2
+../Core/Src/uart_gpio.c:136:6:GPIO_SetAlternate	2
+../Core/Src/uart_gpio.c:166:7:GPIO_WriteBit	2
+../Core/Src/uart_gpio.c:188:6:UART_Init	3
+../Core/Src/uart_gpio.c:217:6:UART_SendBuffer	4
+../Core/Src/uart_gpio.c:237:15:UART_ReceiveBuffer	4
