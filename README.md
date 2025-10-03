@@ -101,21 +101,29 @@ On timeout → PD14 set (error LED)
 **GPIO**
 
 void GPIO_ClockEnable(GPIO_TypeDef *gpio_x);
+
 void GPIO_Init(GPIO_TypeDef *gpio_x, char Mode, char typeInput, char typeOutput, short int pin);
+
 void GPIO_SetAlternate(GPIO_TypeDef *gpio_x, uint8_t pin, uint8_t Af);
+
 void GPIO_WriteBit(GPIO_TypeDef *gpio_x, unsigned short int GPIO_Pin, char BitVal);
 
 **UART**
 
 void UART_ClockEnable(USART_TypeDef *uart_x);
+
 void UART_Init(USART_TypeDef *uart_x, unsigned int baud, char Mode);
+
 void UART_SendBuffer(USART_TypeDef *uart_x, uint8_t *buffer, uint16_t length);
+
 TypedefStatus UART_ReceiveBuffer(USART_TypeDef *uart_x, uint8_t *buffer, uint16_t length, uint32_t timeout);
 
 **SysTick / Timeout**
 
 void Ticks_Init(uint32_t freq);
+
 uint32_t get_Ticks();
+
 void delay(uint32_t delay_ms);
 
 ## Build & Flash
