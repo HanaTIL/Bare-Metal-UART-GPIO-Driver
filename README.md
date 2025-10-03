@@ -90,7 +90,7 @@ TX Mode: Sends "Hello UART!" repeatedly
 
 RX Mode: Waits for a fixed-length buffer
 
-## Behavior:
+**Behavior:**
 
 On success → PD12 set (success LED)
 
@@ -131,13 +131,13 @@ void delay(uint32_t delay_ms);
 
 ## Example Behavior
 
-### TX Mode:###
+**TX Mode:**
 
 "Hello UART!" transmitted periodically over PA2
 
 Activity LEDs (PD13, PD15) toggle
 
-### RX Mode:###
+**RX Mode:**
 
 Listens on PA3 for fixed-length buffer (12 bytes)
 
