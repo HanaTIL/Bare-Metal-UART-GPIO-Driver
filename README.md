@@ -147,6 +147,9 @@ void delay(uint32_t delay_ms);
 
 "Hello UART!" transmitted periodically over PA2
 
+On successful transmision → PD12 set (success LED)
+
+
 Activity LEDs (PD13, PD15) toggle
 
 **RX Mode:**
