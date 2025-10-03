@@ -63,12 +63,19 @@ PD14 → Error indicator
 
 ## Project Structure
 │   ├── Src
+
 │   │   ├── main.c          # Example application using TX/RX with LEDs
+
 │   │   ├── uart_gpio.c     # UART + GPIO driver (register-level)
+
 │   │   ├── Time_Out.c      # SysTick-based delay & timeout
+
 │   ├── Inc
+
 │   │   ├── uart.h          # Register mappings + driver prototypes
+
 │   │   ├── Time_Out.h      # Timeout definitions and function prototypes
+
 
 ## Usage
 1. Mode Selection
